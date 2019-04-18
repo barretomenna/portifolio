@@ -11,8 +11,14 @@ export default class NavBar extends Component {
                 </section>
 
                 <nav className="navbar">
-                    <a>skills</a>
-                    <a>Sobre</a>
+                    {/* <a>skills</a>
+
+                    <div className="profileField">
+                        <img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/512/user-male-icon.png" />
+                        <span>Rafael Barreto</span>
+                    </div>
+
+                    <a>Sobre</a> */}
                 </nav>
 
                 <section>

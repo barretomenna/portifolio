@@ -17,5 +17,18 @@
         a{
             margin: 0 15px;
         }
+
+        .profileField{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 100px;
+                border-radius: 50%;
+            }
+            span{
+                user-select: none;
+            }
+        }
     }
 }
