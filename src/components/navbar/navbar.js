@@ -7,7 +7,7 @@ export default class NavBar extends Component {
         return (
             <div className="navbarContainer">
                 <section>
-                    <i class="nes-ash"></i>
+                    <i className="nes-ash"></i>
                 </section>
 
                 <nav className="navbar">
@@ -22,7 +22,7 @@ export default class NavBar extends Component {
                 </nav>
 
                 <section>
-                    <i class="nes-charmander"></i>
+                    <i className="nes-charmander"></i>
                 </section>
             </div>
         );
