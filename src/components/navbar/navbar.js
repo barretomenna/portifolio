@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom'
 import './navbar.scss';
 
 export default class NavBar extends Component {
@@ -11,14 +12,14 @@ export default class NavBar extends Component {
                 </section>
 
                 <nav className="navbar">
-                    <a>skills</a>
+                    <Link to="/skills" >Skills</Link>
 
                     <div className="profileField">
-                        <img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/512/user-male-icon.png" />
+                        <img src="https://scontent.fccm1-1.fna.fbcdn.net/v/t1.0-9/48423701_1203298086485877_4906807892943831040_n.jpg?_nc_cat=100&_nc_ht=scontent.fccm1-1.fna&oh=ecfbc307ec9ca834930becc434b3761f&oe=5D372EB4" />
                         <span>Rafael Barreto</span>
                     </div>
 
-                    <a>Sobre</a>
+                    <Link to="/sobre" >Sobre</Link>
                 </nav>
 
                 <section>

@@ -1,0 +1,28 @@
+.skillsContainer{   
+
+    
+}
+
+.skillsItens{
+    display: flex;
+    flex-direction: row;
+
+    .languages{
+        flex: 1;
+    }
+
+    .frameworks{
+        flex: 1;
+        margin-left: 15px !important;
+    }
+
+    .languages, .frameworks{        
+        .title{
+            display: flex;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: 800;
+        }
+    }
+    
+}
