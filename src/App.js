@@ -17,7 +17,7 @@ class App extends Component {
         <BrowserRouter>
           <NavBar></NavBar>
           <div className="main">
-            <Route exact path="/" render={() => (<Redirect to="/sobre" />)} />
+            <Route  path="/" exact component={Sobre} />
             <Route path="/sobre" component={Sobre} />
             <Route path="/skills" component={Skills} />
           </div>
